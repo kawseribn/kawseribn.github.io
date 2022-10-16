@@ -717,6 +717,7 @@ progress {
 .column {
   float: left;
   width: 50%;
+  
   /* text-indent: 20px; */
 }
 
