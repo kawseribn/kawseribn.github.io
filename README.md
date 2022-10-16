@@ -1,1 +1,1 @@
-### Hi there, I'm [Ibna Kowsar](https://kawseribn.github.io) & here is my Portfolio.
+### Hi there, I'm [Ibna Kowsar & here is my Portfolio](https://kawseribn.github.io).
