@@ -42,7 +42,7 @@
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   /* --bs-primary-rgb: 189, 93, 56; */
-  --bs-primary-rgb: 121, 134, 203;
+  --bs-primary-rgb: 40, 40, 43;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -237,13 +237,41 @@ sup {
 }
 
 a {
-  color: #bd5d38;
-  text-decoration: underline;
-}
-a:hover {
-  color: #974a2d;
+  color: #cc5200;
+  text-decoration: none;
 }
 
+a:hover {
+  color: #009933;
+  text-decoration: none;
+}
+
+
+
+.container-fluid a {
+  position: relative;
+  display: inline-block;
+  padding: 1px;
+  color: #cc5200;
+  text-decoration: none;
+}
+.container-fluid a:hover{
+  color: #009933;
+  text-decoration: none;
+}
+.container-fluid a:after {
+  content: ''; 
+  height: 1px;
+  display: block;
+  border-bottom: 2.5px dotted #f80a02;
+  width: 0;
+  -webkit-transition: width 0.2s;
+  transition: width 0.2s;
+}
+
+.container-fluid a:hover:after {
+  width: 100%;
+}
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
@@ -683,6 +711,13 @@ progress {
   padding-right: calc(var(--bs-gutter-x) * .5);
   padding-left: calc(var(--bs-gutter-x) * .5);
   margin-top: var(--bs-gutter-y);
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  /* text-indent: 20px; */
 }
 
 .col {
@@ -11313,7 +11348,7 @@ p.lead {
 
 .subheading {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 500;
   font-size: 1.5rem;
 }
