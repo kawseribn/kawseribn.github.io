@@ -277,8 +277,28 @@ p.lead {
 .social-icons .social-icon:last-child {
   margin-right: 0;
 }
-.social-icons .social-icon:hover {
+/* .social-icons .social-icon:hover {
   background-color: #801336;
+} */
+
+.social-icons .social-icon.linkedin:hover {
+  background-color: #0A66C2;
+}
+
+.social-icons .social-icon.github:hover {
+  background-color: #181717;
+}
+
+.social-icons .social-icon.researchgate:hover {
+  background-color: #00CCBB;
+}
+
+.social-icons .social-icon.scholar:hover {
+  background-color: #4285F4;
+}
+
+.social-icons .social-icon.twitter:hover {
+  background-color: #1DA1F2;
 }
 
 .dev-icons {
