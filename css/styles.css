@@ -341,4 +341,51 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+
+}
+/* ===========================
+   LATEST NEWS SECTION STYLES
+   =========================== */
+
+.latest-news-section {
+  margin-top: 2.5rem;
+}
+
+.latest-news-title {
+  font-size: 1.4rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  color: #3a6df0; /* Adjust to match your theme */
+}
+
+.latest-news-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.latest-news-list li {
+  margin-bottom: 0.6rem;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
+.latest-news-list i {
+  margin-right: 0.45rem;
+  color: #3a6df0; /* icon color */
+}
+
+.latest-news-list strong {
+  font-weight: 700;
+}
+
+.latest-news-list a {
+  color: #3a6df0;
+  text-decoration: none;
+}
+
+.latest-news-list a:hover {
+  text-decoration: underline;
 }
