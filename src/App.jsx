@@ -33,7 +33,7 @@ const PROFILE = {
   githubUrl: "https://github.com/kawseribn",
   linkedinUrl: "https://www.linkedin.com/in/ikowsar/",
   researchGateUrl: "https://www.researchgate.net/profile/Ibna-Kowsar",
-  cvUrl: "/path-to-your-cv.pdf", 
+  cvUrl: "/assets/papers/CV_Ibna_Kowsar__short_ (2).pdf", 
   bio: `I am a Ph.D. student in Computer Science at the University of California, Davis. My research focuses on the intersection of Deep Learning, Computer Vision, and Healthcare Informatics. I am driven by the need to make deep learning models interpretable, ensuring that AI systems are transparent and trustworthy enough for critical tasks like medical diagnosis.
   
   Before starting my Ph.D., I worked as a Research Associate at the CIDA Lab at Tennessee State University and as a Machine Learning Engineer at Apurba Technologies.`,
