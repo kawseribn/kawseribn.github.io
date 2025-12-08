@@ -103,6 +103,12 @@ const SERVICE = [
 
 const NEWS = [
   { 
+    date: "December 2025", 
+    content: "Attended NeurIPS'2025", 
+    type: "Milestone",
+    color: "from-blue-500 to-cyan-500"
+  },
+  { 
     date: "Fall 2025", 
     content: "Started my Ph.D. in Computer Science at UC Davis.", 
     type: "Milestone",
