@@ -105,7 +105,7 @@ const NEWS = [
   { 
     date: "December 2025", 
     content: "Attended NeurIPS'2025", 
-    type: "Milestone",
+    type: "Conference",
     color: "from-blue-500 to-cyan-500"
   },
   { 
