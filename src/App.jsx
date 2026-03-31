@@ -136,6 +136,15 @@ const NEWS = [
 
 const PUBLICATIONS = [
   {
+    id: "xai-cvpr-2026",
+    title: "A Benchmark Study on the Reliability of Explainability Methods",
+    authors: "I Kowsar",
+    venue: "CVPR 2026 Workshop on Explainable AI (XAI)",
+    year: 2026,
+    link: "",
+    tags: ["XAI", "Explainability", "Benchmark"]
+  },
+  {
     id: "deepifsac-2025",
     title: "DeepIFSAC: Deep imputation of missing values using feature and sample attention within contrastive framework",
     authors: "I Kowsar, SB Rabbani, Y Hou, MD Samad",
