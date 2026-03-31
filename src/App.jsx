@@ -102,9 +102,15 @@ const SERVICE = [
 ];
 
 const NEWS = [
-  { 
-    date: "December 2025", 
-    content: "Attended NeurIPS'2025", 
+  {
+    date: "June 2026",
+    content: "Will be attending CVPR 2026 for the XAI Workshop.",
+    type: "Conference",
+    color: "from-blue-500 to-cyan-500"
+  },
+  {
+    date: "December 2025",
+    content: "Attended NeurIPS'2025",
     type: "Conference",
     color: "from-blue-500 to-cyan-500"
   },
